@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tienda en Línea</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <h1>Tienda en Línea Christian :3</h1>
+
+    <!-- Lista de productos -->
+    <div id="productos">
+        <div class="producto">
+            <h3>Pc Gamer ASUS</h3>
+            <img class="Width" src="./img/pc_gamer.png" alt="">
+            <p>32gb de RAM y 2T de SSD</p>
+            <button class="agregar">Agregar</button>
+        </div>
+        <div class="producto">
+            <h3>Laptop Gamer ASUS</h3>
+            <img class="Width" src="./img/laptop_gamer1.png " alt="">
+            <p>Descripción del Producto 2</p>
+            <button class="agregar">Agregar</button>
+        </div>
+        <div class="producto">
+            <h3>Audifonos gamer</h3>
+            <img class="Width" src="./img/audifonos1.png" alt="">
+            <p>cero lag en el audio</p>
+            <button class="agregar">Agregar</button>
+        </div>
+        <!-- Agrega más productos aquí -->
+    </div>
+
+    <!-- Carrito de compras -->
+    <h2>Carrito de Compras</h2>
+    <div id="carrito">
+        <ul id="lista-carrito"></ul>
+        <button id="enviar-compra">Enviar Compra</button>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

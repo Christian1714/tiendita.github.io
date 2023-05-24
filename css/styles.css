@@ -1,0 +1,88 @@
+/*  Selector Universal  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgb(200, 255, 237);
+}
+/*  Selector de etiqueta  */
+h1{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    background-color: rgba(0, 0, 0, 0.685);/*Color del fondo*/
+    border-radius: 10px;
+    text-align: center;
+    font-size: 45px; /*Tamaño de la letra en pixeles*/
+    font-family: Arial, Helvetica, sans-serif; /*fuente de la letra*/
+    color: rgba(255, 255, 255, 0.89); /*Color de la letra*/
+}
+h3{
+    color: rgb(85, 179, 127);
+    margin-top: 10px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*  Selector de ID  */
+#productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+.producto{
+    padding: 40px 40px ;
+    background-color: rgba(255, 255, 255, 0.61);
+    margin: 0px 12px ;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 5px 5px 12px black;
+}
+.Width{
+    max-width: 50%;
+    max-height: 50%;
+}
+.agregar{
+    padding: 5px 12px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgba(84, 201, 255, 0.603);
+    pointer-events: fill;
+    cursor: pointer;
+}
+
+/*Carrito de compras*/
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+#lista-carrito{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.quitar{
+    padding: 5px 12px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgba(84, 201, 255, 0.603);
+    pointer-events: fill;
+    cursor: pointer;
+}
+#enviar-compra{
+    padding: 5px 12px;
+    margin: 25px 0px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 0, 0.459);
+    border: 0px;
+    margin-left: 50px;
+    cursor: pointer;
+}
